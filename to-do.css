@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Square+Peg&display=swap');
+
+body{
+    background-image: url("images/flat-lay-workstation-with-copy-space-laptop.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 300;
+    font-size: 50px;
+    margin:0;
+    color: #ffffff;
+
+}
+.fa-pencil{
+    margin-right:30px;
+    margin-top: 30px;
+    font-size: 20px;
+    float:right;
+}
+#container{
+    width:450px;
+    height: 500px;
+    margin-left:300px;
+    margin-top: 70px ;
+    border: 0.3px solid black;
+    background-color: rgb(114, 117, 111);
+    box-shadow: 10px 5px 7px rgba(152, 152, 152, 0.3);
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+}
+input{
+    width: 100%;
+    margin-top: 10px;
+    font-size: 25px;
+    background:rgb(114, 117, 111);
+    padding:13px 13px 13px 20px;
+    box-sizing: border-box;
+    outline: none;
+    border:none;
+    color:black;
+}
+::-webkit-input-placeholder{
+    color: #ffffff;
+    opacity: 0.6;
+}
+:focus::-webkit-input-placeholder{
+    opacity: 0.3;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+span{
+    height: 40px;
+    width: 0;
+    margin-right: 20px;
+    text-align: center;
+    background: rgb(58, 57, 57);
+    display: inline-block;
+    transition: 0.2s linear;
+    opacity: 0;
+}
+li:hover span{
+    width: 40px;
+    opacity: 1;
+}
+li{
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    color: #ffffff ;
+    border-bottom: 1px solid black;
+}
+.completed{
+    color:black;
+    text-decoration: line-through;
+}
